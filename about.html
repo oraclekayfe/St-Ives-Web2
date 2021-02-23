@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,400&family=Roboto+Slab:wght@400;700;900&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+/>
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+  />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <title>St Ives Healthcare | About Us</title>
+</head>
+
+<body id='home' data-spy="scroll" data-target="#mainNav">
+
+<!-- Preloader Start -->
+<div class="preloader">
+    
+  <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-ripple" style="background:0 0"><circle cx="50" cy="50" r="4.719" fill="none" stroke="#1d3f72" stroke-width="2"><animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="3" keySplines="0 0.2 0.8 1" begin="-1.5s" repeatCount="indefinite"/><animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="3" keySplines="0.2 0 0.8 1" begin="-1.5s" repeatCount="indefinite"/></circle><circle cx="50" cy="50" r="27.591" fill="none" stroke="#5699d2" stroke-width="2"><animate attributeName="r" calcMode="spline" values="0;40" keyTimes="0;1" dur="3" keySplines="0 0.2 0.8 1" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="3" keySplines="0.2 0 0.8 1" begin="0s" repeatCount="indefinite"/></circle></svg>
+  
+</div>
+<!-- Preloader Ends -->
+
+
+<!-- Side Bar Starts -->
+<div id="mySidenav" class="sidenav" data-simplebar>
+  <nav id="sidebar">
+    <div class="sidebar-header">
+      <a style="z-index: 3;">
+        <img src="img/svg/st-specialist-hospital.svg" alt="St Ives Blog" height='80px'/>
+      </a> 
+
+      <a id="close_btn" href="javascript:void(0)" onclick="closeNav()">
+        &times;
+      </a>
+
+    </div>
+    
+    
+    <ul class="list-unstyled components">
+      <li class="border-bottom">
+        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> 
+          <span><i class="fas fa-home"></i> Home</a>
+        <ul class="collapse list-unstyled" id="homeSubmenu">
+          <li>
+            <a href="specialist.html">St Ives Specialist</a>
+          </li>
+          <li>
+            <a href="family-clinic.html">Family Clinic</a>
+          </li>
+          <li>
+            <a href="fertility.html">Fertility Unit</a>
+          </li>
+          <li>
+            <a href="blood-bank.html">St Ives Blood Bank</a>
+          </li>
+        </ul> 
+      </li>
+      
+
+      <li class="border-bottom">
+        <a href="#pageSubmenu" class="dropdown-toggle" data-toggle="collapse" aria-expanded="false"> 
+          <span><i class="fas fa-stethoscope"></i></span> Services</a>
+        <ul class="collapse list-unstyled" id="pageSubmenu">
+          <li>
+            <a href="specialist-services.html">Specialist Services</a>
+          </li>
+          <li>
+            <a href="family-services.html">Clinic Services</a>
+          </li>
+          <li>
+            <a href="fertility-services.html">Fertility Services</a>
+          </li>
+          <li>
+            <a href="ivf-statistics.html">IVF Statistics</a>
+          </li>
+        </ul> 
+      </li>
+      <li class="border-bottom">
+        <a href="contact.html"> <span><i class="far fa-address-book"></i></span> Contact</a>
+      </li>
+    </ul>
+    
+    <ul class="list-unstyled CTAs">
+      <li>
+        <a href="blog.html" class="bloger"> <span><i class="fas fa-blog"></i></span> St Ives Blog</a>
+      </li>
+    </ul>
+
+    <ul class="list-unstyled components">
+      <li class="border-bottom">
+        <a href="https://www.ivesmedicare.com/" target="_blank">Ives Medicare</a>
+      </li>
+      <li class="border-bottom">
+        <a href="http://wfm917.com/" target="_blank">WFM 917</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<!-- Side Bar Ends -->
+
+
+    <!-- First Navigaion -->
+  <header>
+    <div class="container">
+        <nav class="navbar navbar-expand d-flex justify-content-between">
+          <a href="index.html" class="navbar-brand hvr-shadow text center" style="z-index: 3;">
+            <img src="img/svg/original/image10.png" class="animated tada" alt="St Ives" height='80px'/>
+          </a>
+          <div class="navbar-nav d-flex animated tada">
+            <div class=" border-left nav-item px-3 border-success">
+              <div class="media">
+                <i class=" fas fa-map-marker-alt fa-1x mr-2 text-success"></i>
+                <div class="media-body">
+                  <ul class="list-unstyled">
+                    <li><h5 class="fs-0 mb-1 text-success">Address</h5></li>
+                    <p id="factDisplay"></p>
+                  </ul>
+                </div>
+              </div> 
+            </div>
+            <div class=" nav-item border-left px-3 border-success d-none d-md-block">
+              <div class="media">
+                <i class=" fas fa-mobile-alt fa-1x mr-2 text-success"></i>
+                <div class="media-body">
+                  <ul class="list-unstyled">
+                    <li><h5 class="fs-0 mb-1 text-success">Phone</h5></li>
+                    <li class=" nav-item">08039494531</li>
+                    <li class=" nav-item">07088727358</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      </nav>
+    </div>
+  </header>
+  <!-- End of First Navigaion -->
+  
+
+  <!-- Second Navigation -->
+  <div id="mainNav" class="banner-area">
+    <div class="container">
+          <nav class="navbar navbar-expand" style="background: white;">
+
+            <a id="sideBar-Btn" href="javascript:void(0)" onclick="openNav()">
+              <i class="fas fa-bars"></i>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item d-none d-md-block">
+                  <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item d-none d-md-block">
+                  <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item d-none d-lg-block">
+                  <a href="https://www.ivesmedicare.com/" target="_blank" class="nav-link">Ives Medicare</a>
+                </li>
+                <li class="nav-item d-none d-lg-block">
+                  <a href="http://www.wfm917.com/" target="_blank" class="nav-link">WFM 917</a>
+                </li>
+                <li class="nav-item d-none d-md-block">
+                  <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="javascript:void(0)" data-toggle="modal" data-target=".bd-example-modal-lg">BOOK APPOINTMENT</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+    </div>
+  </div>
+  <!-- End of Second Navigation -->
+
+      <!-- Showcase -->
+      <header id="showcase">
+        <div class="container drk">
+          <div class="showcase-container">
+            <div class="showcase-content">
+              <h1 class="animated fadeInUp" style="animation-delay: 1s;">St Ives Specialist Hospital</h1>
+              <p class="mb-5 animated fadeInUp" style="animation-delay: 2s;"> We are Healthcare Professionals, Commited to the Best Quality of
+                Live, Through Preventative and Clinical Medicine, For Total Health
+                and Wellbeing.</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+<div class="divider"></div>
+
+    <section id="about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 d-flex flex-column">
+            <div class="card border-0">
+                <h2 class="py-3 text-success text-center border border-success">
+                    About St Ives Specialist Hospital
+                </h2>
+                <div class="card-body">
+                  <p class="text-justify
+                ">St. Ives Specialist Hospital is a leading private hospital group in Nigeria.</p>
+                  <p class="text-justify
+                ">Founded in 1996 in a 3-bedroom apartment in Ikeja, we have grown into a highly revered multi-specialist healthcare provider operating from 4 branches in Ikoyi, Ikeja, Akowonjo in Lagos State, and in Ibarra, Abeokuta in Ogun State.</p>
+                  <p class="text-justify">
+                  Ives is dedicated to three specific practices: women health, children health, and family health with four distinct healthcare operations.
+                  </p>
+                  <p class="text-justify">
+                  operational arm is situated at separate locations, well equipped with modern facilities, and well-staffed with qualified specialists and professionals who are abreast of all modern trends, global best practices and developments in their various specialties.
+                  </p>
+                  <p class="text-justify">
+                  We offer dedicated specialist services in all matters of women, children and family health, managed and delivered by a group of consultants in Obstetrics and Gynecology, Pediatrics, Medicine and Surgery. St. Ives also provides referrals to affiliate medical experts abroad on occasions when required.
+                  </p>
+                  <p class="text-justify">Our specialist practice provides first class maintenance and improvement of health via the reliable diagnosis, treatment, and prevention of diseases, illnesses, injuries, and other physical and mental impairments. Our specialist hospitals are located in Ikoyi and Ikeja in Lagos.</p>
+                </div>
+            </div>
+            
+            <div class="card my-3 border-0">
+              <h3 class="py-3 text-success text-center border border-success">St Ives Family Clinic</h3>
+              <div class="card-body">
+                <p class="text-justify p-2">Our Family Clinics provide the best first line of care for all members of the family using top of the range facilities and first-class family health physicians with the expertise and commitment to all aspects of family health issues relating to women, children and the men in their lives.</p>
+              </div>
+            </div>
+            
+            <div class="card border-0">
+              <h3 class="py-3 text-success text-center border border-success">St Ives Fertility Unit</h3>
+              <div class="card-body">
+                <p class="text-justify p-2">Dedicated to the provision of Advanced IVF and Fertility Services for the attainment of Pregnancy and Conception needs of expectant couples at affordable costs. Our fertility unit started in 2007 and we boast one of the highest IVF success rates in the world with over 2000 successful IVF births in 10 years.</p>
+              </div>
+            </div>
+            
+            <div class="card my-3 border-0">
+              <h3 class="py-3 text-center text-success border border-success">St Ives Pharmacy</h3>
+              <div class="card-body">
+                <p class="text-justify p-2">We operate modern pharmaceutical outlet, the Saint Store, retailing genuine, up to date, NAFDAC registered and industry approved drugs with the aim of ensuring our patients and stakeholders have trusted access to genuine medications. Our pharmacy operation is another testament of our corporate focus on Total Healthcare.</p>
+              </div>
+            </div>
+
+            
+            <div class="card border-0">
+              <h3 class="py-3 text-center text-success border border-success">
+                Vision & Mission 
+              </h3> 
+              <div class="card-body">
+                <div class="mb-2">
+                <h5 class="text-danger font-weight-bold">Mission Statement</h5>
+                <p class="text-justify">To provide an advanced competitive IVF and Fertility service of international standard with a high pregnancy rate at an affordable cost to the couples.</p>
+                </div >
+                <div>
+                  <h5 class="text-danger font-weight-bold">Vision</h5>
+                  <p class="text-justify">To be the healthcare organization of first choice for women, children and the family</p>
+                  </div >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4">
+            <div class="divider d-none d-md-none"></div>
+
+            <div class="card border-0hvr-shadow mb-4 shadow">
+              <img src="img/ivf-promo.jpg" class="card-img-top" alt="Request Appointment">
+              <div class="card-body">
+                <h5>
+                  <a class="text-decoration-none" href="javascript:void(0)" data-toggle="modal" data-target=".bd-example-modal-lg"  style="color: #b45454">IVF Promo</a>
+                </h5>
+                <p class="card-text">Register for our IVF promo and the bundle of joy you desire could soon be in your loving arms</p>
+              </div>
+              <a style="text-decoration: none;">
+                <div class="card-footer" data-toggle="modal" data-target=".bd-example-modal-lg" style="cursor: pointer; color: #b45454;">
+                  <strong>Book Appointment <span class="float-right"><i class="fas fa-chevron-right fa-lg fa-va"></i></span>
+                  </strong>
+                </div>
+                </a>
+            </div>
+
+            <div class="divider d-none d-md- block"></div>
+        
+        
+            <div class="card border-0 hvr-shadow shadow ">
+              <img src="img/blood-donation-4151721_1920.jpg" alt="St Ives Blood Bank" class="img-fluid card-img-top">
+              <div class="card-body">
+                <h5>
+                  <a class="text-decoration-none" href="blood-bank.html" style="color: #b45454">St Ives Blood Bank
+                  </a>
+                </h5>
+        
+                <p class="card-text text-justify">St Ives Blood Bank is a high-tech and state of the art registered blood bank, that collects, separate and stores whole blood and blood components.</p>
+              </div>
+              <a href="blood-bank.html" class="text-dark" style="text-decoration: none;">
+                <div class="card-footer" style="color: #b45454">
+                  <strong>Learn More <span class="float-right"><i class="fas fa-chevron-right fa-lg fa-va"></i></span>
+                  </strong>
+                </div>
+              </a>
+            </div>
+        
+            <div class="divider"></div>
+        
+            <a href="http://wfm917.com/" target="_blank" style="text-decoration: none;">
+              <img class="img-fluid" src="img/WhatsApp Image 2020-03-27 at 12.34.34 PM (1).jpeg" alt="Radio Doctor" />          
+            </a>
+        
+           </div>
+        </div>
+      </div>
+    </section>
+
+  <div class="divider"></div>
+
+<!-- Ives Doctors -->
+ <section id="stivesdoctors">
+  <div class="container">
+    <div class="card border-0">
+      <h3 class="py-3 text-success text-center border border-success">
+        Meet Our Doctors
+      </h3>
+      <div class="card-body">
+        <div class="row">
+          <!-- Team Member 1 -->
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card shadow border border-0">
+              <img src="img/okewale-video1new-36h5dkl0rdxhz7ngdwxlog.png" class="card-img-top" alt="Dr. Tunde Okewale">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  <a href="babatunde_okewale.html" style="text-decoration: none;color: black;">Dr. Babatunde <br> Okewale</a>
+                </h5>
+                <div class="card-text text-black-50">CEO, St Ives Healthcare Organization</div>
+                <div class="d-flex justify-content-center">
+                    <div class="p-4">
+                      <a href="http://facebook.com">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                    </div>
+                    <div class="p-4">
+                      <a href="http://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </div>
+                    <div class="p-4">
+                      <a href="http://instagram.com">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- Team Member 2 -->
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img  src="img/DrObodoSP1-36h5e97loqeeopybvp648w.png" class="card-img-top" alt="Dr. Kingsley Obodo">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  <a href="obodo.html" style="text-decoration: none;color: black;">Dr Kingsley <br> Obodo</a>
+                </h5>
+                <div class="card-text text-black-50">Medical Director St. Ives Specialist Ikeja</div>
+                <div class="d-flex justify-content-center">
+                    <div class="p-4">
+                      <a href="http://facebook.com">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                    </div>
+                    <div class="p-4">
+                      <a href="http://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </div>
+                    <div class="p-4">
+                      <a href="http://instagram.com">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- Team Member 3 -->
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img src="img/DrOsahonSP-36h5eacb9d73p5o6chu0ow.png" class="card-img-top" alt="Dr. O. Ede-Edokpolor">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  <a href="edokpolo.html" style="text-decoration: none;color: black;">
+                    Dr. O. Ede- <br> Edokpolor
+                  </a>
+                </h5>
+                <div class="card-text text-black-50">
+                  Medical Director St. Ives Specialist Ikoyi.
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="p-4">
+                      <a href="http://facebook.com">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                    </div>
+                    <div class="p-4">
+                      <a href="http://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </div>
+                    <div class="p-4">
+                      <a href="http://instagram.com">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!-- Team Member 4 -->
+          <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-0 shadow">
+              <img src="img/DrAlozieSP-36h5e31ygea6icdm093zls.png" class="card-img-top" alt="Dr. Alozie Ndubuka">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  <a href="alozie.html" style="text-decoration: none;color: black;">Dr. Alozie <br> Ndubuka</a>
+                </h5>
+                <div class="card-text text-black-50">Medical Director, St. Ives Family Clinic, Akowonjo</div>
+                <div class="d-flex justify-content-center">
+                    <div class="p-4">
+                      <a href="http://facebook.com">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                    </div>
+                    <div class="p-4">
+                      <a href="http://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </div>
+                    <div class="p-4">
+                      <a href="http://instagram.com">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+
+                  </div>
+              </div>
+            </div>
+        </div>
+       </div>
+      </div>
+    </div>
+</div>
+</section>
+  <!-- Doctors End -->
+
+     <!-- Footer Start -->
+  <footer id="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mt-2 text-center">
+          <img src="img/svg/original/image10.png" class="w-50 rounded bg-light" alt="logo">
+        </div>
+        <div class="col-md-3 mt-2">
+          <div class="mb-3">
+            <h3>Email Newsletter</h3>
+            <p>Subscribe To Our Newsletter.</p>
+            <form name="Subscribe" method="POST" data-netlify="true">
+              <input type="email" name="email" placeholder="Enter Email..." class="form-control">
+              <button type="submit" class="btn mt-3">Subscribe</button>
+            </form>
+          </div>
+      </div>
+      <div class="col-md-3 mt-2">
+        <div>
+          <h3>Site Map</h3>
+          <ul class="list-unstyled">
+            <li><a href="index.html"><i class="fas fa-chevron-right mr-2"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-chevron-right mr-2"></i> About</a></li>
+            <li><a href="foundation.html"><i class="fas fa-chevron-right mr-2"></i> Foundation</a></li>
+            <li><a href="contact.html"><i class="fas fa-chevron-right mr-2"></i> Contact</a></li>
+          </ul>
+        </div>
+    </div>
+    <div class="col-md-3 mt-2">
+      <div>
+        <h3>Services</h3>
+        <ul class="list-unstyled">
+          <li><a href="family-clinic.html"><i class="fas fa-chevron-right mr-2"></i> Family</a></li>
+          <li><a href="fertility-services.html"><i class="fas fa-chevron-right mr-2"></i> Fertility</a></li>
+          <li><a href="https://saintivespharmacy.com/home" target="-blank"><i class="fas fa-chevron-right mr-2"></i>Pharmacy</a></li>
+          <li><a href="blood-bank.html"><i class="fas fa-chevron-right mr-2"></i>Blood Bank</a></li>
+        </ul>
+      </div>
+  </div>
+  </div>
+  <div class="row container">
+    <div class="col-lg-6 col-sm-6 mx-auto py-2 d-flex justify-content-center">
+      <p id="copyr" class="py-2">Copyright &copy;
+        <span id="year"></span> St Ives Healthcare.
+      </p>
+    </div>
+    <div class="col-lg-6 col-md-6 mx-auto py-2 d-flex justify-content-center">
+      <div class="social nav">
+        <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook p-2 mb-1"></i></a>
+        <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter p-2 mb-1"></i></a>
+        <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram p-2 mb-1"></i></a>
+        <a href="http://web.whatsapp.com" target="_blank"><i class="fab fa-whatsapp p-2 mb-1"></i></a>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  </footer>
+  <!-- Footer End -->
+  
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fas fa-arrow-up" aria-hidden="true"></i>
+  </button>
+
+
+  <!-- Large modal 1-->
+
+<div class="modal bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content animated fadeInDown" style="animation-duration: 0.1s;">
+  
+      <!-- Modal Header -->
+      <div class="modal-header">
+         <h4 class="modal-title">Book Appointment</h4>
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+       </div>
+       <!-- Modal body -->
+       <div class="modal-body">
+          <form name="Appointment" method="POST" data-netlify="true">
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-dark text-white">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input type="text" name="name" class="form-control" placeholder="Name" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-dark text-white">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+                <input type="email" name="email" class="form-control" placeholder="Email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-dark text-white">
+                    <i class="fas fa-tty"></i>
+                  </span>
+                </div>
+                <input type="Phone" name="phone" class="form-control" placeholder="Phone" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-dark text-white">
+                    <i class="fas fa-calendar-check"></i>
+                  </span>
+                </div>
+                <input type="date" name="date" class="form-control" placeholder="date" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-dark text-white">
+                    <i class="fas fa-building"></i>
+                  </span>
+                </div>
+                <select name="query" class="form-control bg-dark text-white" name="clinic" required>
+                  <option>
+                    Select Branch
+                  </option>
+                  <option value="c3f1001adfd30d1681815253191d6b08">
+                    St Ives Specialist Hospital, Opebi, Ikeja, Lagos.
+                  </option>
+                  <option value="495129f3f5251d7cffc0579d46acc219">
+                    St Ives Specialist Hospital, Maitama Sule, Ikoyi, Lagos.
+                  </option>
+                  <option value="e143f43b5054f4413b5274d44ca09439">
+                    St Ives Family Clinic, Akowonjo, Egbeda, Lagos.
+                </option>
+                 <option value="9d58def3a4fa07c129c4dd934140e999">
+                   St Ives Family Clinic, Ibarra Estate, Abeokuta, Ogun State.
+                  </option>
+                </select>
+              </div>
+            </div>
+            <!-- Modal footer -->
+        <div class="modal-footer p-0 m-0">
+          <input type="submit" value="Submit" class="btn btn-outline-dark btn-block">
+        </div>
+        </form> 
+        </div>
+     
+     </div>
+   </div>
+  </div>
+  <!-- Large Modal 1 End -->
+  
+
+  <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+<!-- Get the current year for the copyright -->
+<script>$('#year').text(new Date().getFullYear())</script>
+
+
+<!-- Header Scroll -->
+<script>
+  $(function(){
+   var mainNav = $('.banner-area');
+       sticky = 'sticky';
+       headerHeight = $('header').height();
+
+ 
+   $(window).scroll(function(){
+     if($(this).scrollTop() > headerHeight){
+       mainNav.addClass(sticky);
+     }else {
+       mainNav.removeClass(sticky);
+     }
+     if($(this).scrollTop() > (headerHeight * 3)) {
+       mainNav.addClass('inView');
+     }else {
+       mainNav.removeClass('inView');
+     }
+   })
+  })
+ </script>
+ <!-- Header Scroll Ends -->
+
+
+<script>
+ //Get the button
+ var mybutton = document.getElementById("myBtn");
+
+ // When the user scrolls down 20px from the top of the document, show the button
+ window.onscroll = function() {scrollFunction()};
+
+ function scrollFunction() {
+   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+     mybutton.style.display = "block";
+   } else {
+     mybutton.style.display = "none";
+   }
+ }
+
+ // When the user clicks on the button, scroll to the top of the document
+ function topFunction() {
+   document.body.scrollTop = 0;
+   document.documentElement.scrollTop = 0;
+ }
+ </script>
+
+
+<script>
+// Disable form submissions if there are invalid fields
+(function() {
+    'use strict';
+    window.addEventListener('load', function() {
+    // Get the forms we want to add validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+        }, false);
+    });
+    }, false);
+})();
+</script>
+
+<script>
+  const preloader = document.querySelector('.preloader');
+
+const fadeEffect = setInterval(() => {
+  // if we don't set opacity 1 in CSS, then   //it will be equaled to "", that's why we   // check it
+  if (!preloader.style.opacity) {
+    preloader.style.opacity = 1;
+  }
+  if (preloader.style.opacity > 0) {
+    preloader.style.opacity -= 0.1;
+  } else {
+    clearInterval(fadeEffect);
+  }
+}, 200);
+
+window.addEventListener('load', fadeEffect);
+</script>
+
+<script>
+  (function newFact() {
+  var facts = ['12 Salvation Road, Opebi,<br /> Ikeja, Lagos.', '6 Maitama Sule Str, off <br/> Awolowo Road, Ikoyi', '129 Akowonjo Road, Kwara  <br/>Bus-Stop, Egbeda'];
+  var randomFact = Math.floor(Math.random() * facts.length);
+  document.getElementById('factDisplay').innerHTML = facts[randomFact];
+  })();
+</script>
+
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+</script>
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/5e6046648d24fc226585d6a9/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
+</html>
